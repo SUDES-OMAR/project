@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudes Omar Muhumed Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sudes Omar Muhumed</h1>
+            <p id="greeting">Welcome to my profile</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container section">
+            <div class="profile-container">
+                <img src="Screenshot_20250422-075526_Gallery.jpg" alt="Sudes Omar Muhumed Profile Picture" class="profile-image">
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <p>Hi, I'm a web development enthusiast learning HTML, CSS, and JavaScript.</p>
+                    <p class="bio-more" id="bio-extended">I am passionate about creating responsive and user-friendly web applications. My journey in web development started with HTML and CSS, and I've been expanding my skills to include JavaScript, Git version control, and various frameworks. I am currently pursuing further knowledge in web application development with the goal of becoming a full-stack developer.</p>
+                    <button id="read-more">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li><strong>HTML & CSS:</strong> Creating structured and styled web pages</li>
+                <li><strong>JavaScript:</strong> Adding interactivity to websites</li>
+                <li><strong>Basic Git & GitHub:</strong> Version control and collaboration</li>
+                <li><strong>Responsive Design:</strong> Mobile-first approach</li>
+                <li><strong>UI/UX Basics:</strong> Creating user-friendly interfaces</li>
+            </ul>
+            <div class="button-container">
+                <button id="change-theme-btn">Change Theme</button>
+                <button id="show-skill-btn">Show Random Skill</button>
+            </div>
+        </section>
+
+        <section id="projects" class="container section">
+            <h2>Projects</h2>
+            <div class="works-container">
+                <div class="work-item">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website showcasing my skills and projects using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="work-item">
+                    <h3>Task Manager App</h3>
+                    <p>A simple task management application with features to add, edit, and delete tasks.</p>
+                </div>
+                <div class="work-item">
+                    <h3>Weather Dashboard</h3>
+                    <p>A web application that displays weather information for different cities using a third-party API.</p>
+                </div>
+                <div class="work-item">
+                    <h3>E-commerce Landing Page</h3>
+                    <p>A responsive landing page for an online store with product listings and shopping cart functionality.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="container section">
+            <h2>Education Timeline</h2>
+            <div class="timeline-container">
+                <div class="timeline-event" data-year="2023">
+                    <h3>2023</h3>
+                    <p>Started Web Development Courses</p>
+                </div>
+                <div class="timeline-event" data-year="2024">
+                    <h3>2024</h3>
+                    <p>Completed HTML & CSS Certification</p>
+                </div>
+                <div class="timeline-event" data-year="2025">
+                    <h3>2025</h3>
+                    <p>Pursuing Web Application Development Course</p>
+                </div>
+                <div class="timeline-event" data-year="2025">
+                    <h3>2025</h3>
+                    <p>Learning JavaScript Frameworks</p>
+                </div>
+            </div>
+            <div class="timeline-controls">
+                <button id="timeline-prev">Previous</button>
+                <button id="timeline-next">Next</button>
+            </div>
+        </section>
+
+        <section id="newsletter" class="container section">
+            <h2>Subscribe to Newsletter</h2>
+            <form id="newsletter-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your name">
+                    <span class="error" id="name-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Your email">
+                    <span class="error" id="email-error"></span>
+                </div>
+                <button type="submit" id="submit-form">Subscribe</button>
+                <p id="form-success" class="success-message"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sudes Omar Muhumed | Web Developer</p>
+            <p>Created for Web Application Development 1 Project</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
